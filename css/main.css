@@ -10,4 +10,66 @@ body {
   margin: 0;
 }
 
-.imgflex
+.img-flex {
+  display: block;
+  width: 100%
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px
+}
+
+.banner-content {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 40em;
+}
+
+.circle {
+  float: left;
+  width: 33%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  max-width: 7em;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  max-width: 18em;
+  line-height: 1.5;
+}
+
+.stuff {
+  float: right;
+  width: 62%;
+}
+
+.btn {
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #333;
+  font-size: 1.125rem;
+  color: #fff;
+  border: 3px #000 solid;
+  border-radius: 8px;
+}
+
+.btn-big{
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  border-color: #000;
+}
